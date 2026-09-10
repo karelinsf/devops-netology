@@ -51,14 +51,20 @@
 4. В файле `README.md` опишите своими словами, какие файлы будут проигнорированы в будущем благодаря добавленному `.gitignore`.
 
 
-Игнорируемые файлы terraform:
-1) .terraform/
-2) .tfstate files
-3) Crash log files
-4) .tfvars files
-5) override files
-6) transient lock info files
-7) CLI configuration files
+В terraform будут игнорироваться директория .terraform/, а так же файлы соответствующие маскам:
+    *.tfstate
+    *.tfstate.*
+    crash.log
+    crash.*.log
+    *.tfvars
+    *.tfvars.json
+    override.tf
+    override.tf.json
+    *_override.tf
+    *_override.tf.json
+    .terraform.tfstate.lock.info
+    .terraformrc
+    terraform.rc
 
 5. Закоммитьте все новые и изменённые файлы. Комментарий к коммиту должен быть `Added gitignore`.
 

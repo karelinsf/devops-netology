@@ -72,7 +72,13 @@
 1. Переименуйте (переместите) файл `will_be_moved.txt` на диске и в репозитории, чтобы он стал называться `has_been_moved.txt`.
 1. Закоммитьте результат работы с комментарием `Moved and deleted`.
 
-![Удаление и перенос](img/git-move-and-delete.JPG)
+
+``` bash
+
+git rm will_be_deleted.txt
+git mv will_be_moved.txt has_been_moved.txt
+
+```
 
 ### Проверка изменения
 

@@ -52,19 +52,19 @@
 
 
 В terraform будут игнорироваться директория .terraform/, а так же файлы соответствующие маскам:
-    *.tfstate
-    *.tfstate.*
-    crash.log
-    crash.*.log
-    *.tfvars
-    *.tfvars.json
-    override.tf
-    override.tf.json
-    *_override.tf
-    *_override.tf.json
-    .terraform.tfstate.lock.info
-    .terraformrc
-    terraform.rc
+-    *.tfstate
+-    *.tfstate.*
+-    crash.log
+-    crash.*.log
+-    *.tfvars
+-    *.tfvars.json
+-    override.tf
+-    override.tf.json
+-    *_override.tf
+-    *_override.tf.json
+-    .terraform.tfstate.lock.info
+-    .terraformrc
+-    terraform.rc
 
 5. Закоммитьте все новые и изменённые файлы. Комментарий к коммиту должен быть `Added gitignore`.
 

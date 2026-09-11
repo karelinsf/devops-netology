@@ -108,3 +108,4 @@ git mv will_be_moved.txt has_been_moved.txt
 
 ----
 
+Изменение для нового тега

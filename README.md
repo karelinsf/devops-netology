@@ -108,4 +108,15 @@ git mv will_be_moved.txt has_been_moved.txt
 
 ----
 
-Изменение для нового тега
+## Решение 
+
+
+Gitlab требует зарубежную банковскую карту. Поэжтому я просто создал еще один пустой репозиторий на GitHub/
+
+![Добавление репов](git-add-readme.JPG)
+
+![добавленные tag-и](img/tag-gitlab.PNG)
+
+![Tags](img/github-tags.PNG)
+
+![Ветка fix](img/fix.PNG)

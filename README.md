@@ -111,7 +111,8 @@ git mv will_be_moved.txt has_been_moved.txt
 ## Решение 
 
 
-Gitlab требует зарубежную банковскую карту. Поэжтому я просто создал еще один пустой репозиторий на GitHub/
+Gitlab требует зарубежную банковскую карту. Поэжтому я просто создал еще один пустой репозиторий на GitHub.
+Поэтому ссылка https://github.com/karelinsf/devops-netology-second.git
 
 ![Добавление репов](git-add-readme.JPG)
 
